@@ -1,0 +1,200 @@
+.first{
+    background-image: url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1883&q=80");
+    display: flex;
+  /* min-height: 100vh; */
+  background-color: #f0f0f0;
+  background-color: bisque;
+ 
+  border: 2px solid red;
+   flex-wrap:wrap;
+   opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* min-height: 900px; */
+}
+.page1{
+   
+display: flex;
+   flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 25px 50px 1px 100px;
+  height: 600px;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 500px;
+  
+  background-color: black;
+  border-style: solid;
+  margin-left: 550px;
+  border:5px solid white
+}
+ .column-container{
+     display: flex;
+    justify-content: center; 
+     
+    background-repeat: no-repeat;
+     
+   
+      width: 1500px; 
+    
+} 
+/* column-gap: 200px; */
+/* min-height:1400px;  */
+/* background-size: 100% 100%; */ 
+
+.column1{
+   
+    height: 800px;
+    background-color: black;
+    flex: 1;
+    max-width: 400px;
+    /* transition: margin-left 0.5s ease; */
+    margin: 5px auto; /* Adjust the top margin and center horizontally */
+    border-radius: 5px;
+    border:5px solid white;
+opacity: 1;
+
+}
+
+.column2{
+   
+    /* flex-direction: column; */
+    background-size: 100% 100%;
+   flex: 1;
+    max-width: 950px;
+    
+    border: 5px solid white;
+    height:600px;
+    margin-top: 5px;
+   margin-right: 40px;
+   background-color: #000;
+   opacity: 1;
+}
+
+
+.column3{
+    height: 715px;
+    background-color: black;
+    flex: 1;
+    max-width: 400px;
+    /* transition: margin-left 0.5s ease; */
+    margin: 5px auto; /* Adjust the top margin and center horizontally */
+    border-radius: 5px;
+    border:5px solid white;
+opacity: 1;
+background-size: cover;
+}
+.column4{
+ /* background-size: 100% 100%; */
+   flex: 1;
+    max-width: 800px;
+    opacity: 10;
+    border: 5px solid white;
+      height:480px; 
+    margin-top: 5px;
+   margin-right: 40px;
+   background-color: #000;
+   opacity: 1;
+   /* background-size: cover; */
+   
+}
+
+footer{
+    flex-direction: row;
+}
+ .button-container{
+    display:flex;
+    justify-content: space-between;
+} 
+
+.alert-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .LP1 {
+  
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    /* background-color: black; */
+    font-size: large;
+    padding-left: 20px;
+    color:black
+    }
+    .LP {
+        margin-bottom: 10px;
+        width: 300px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: large;
+        padding-left: 20px;
+        color:black
+      }
+      ::placeholder{
+        color: black;
+         
+      }
+      .label-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        flex-direction: column;
+        font-size: large;
+        /* padding-left:50px; */
+        color:white;
+      }
+      .diagnosis-option {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      
+      .diagnosis {
+        margin-right: 5px;
+        
+      }
+      .select-button,
+button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+  width: fit-content;
+  
+  margin-top: 30px;
+  border-radius: 8px;
+  width: 100px;
+  height: 40px;
+  margin-bottom: 20px;
+  /* background-color: black; */
+   color: #999;
+   font-size: large;
+}
+button {
+    
+    justify-content: center;
+    align-items: center;
+    
+  }
+ .page3{
+    
+   
+    min-height:2000px;  
+ }
+  
+ 

@@ -1,0 +1,33 @@
+
+/* .Header {
+    
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: transparent;
+    background-image: linear-gradient(to bottom, aqua, white);
+    background-repeat: no-repeat;
+    background-position: -750px 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: backcolor 5s linear infinite alternate;
+}
+
+@keyframes backcolor {
+    100% {
+        background-position: 750px 0; /* Change to a positive value to make it move right */
+    /* }
+}
+.App1 {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1883&q=80');
+    border: 2px solid red;
+    flex-wrap: wrap;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */ 
